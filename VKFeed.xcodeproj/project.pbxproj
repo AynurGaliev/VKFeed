@@ -7,21 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A424DC132101211500A296D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424DC122101211500A296D5 /* AppDelegate.swift */; };
-		A424DC152101211500A296D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424DC142101211500A296D5 /* ViewController.swift */; };
-		A424DC182101211500A296D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A424DC162101211500A296D5 /* Main.storyboard */; };
 		A424DC1A2101211A00A296D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A424DC192101211A00A296D5 /* Assets.xcassets */; };
 		A424DC1D2101211A00A296D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A424DC1B2101211A00A296D5 /* LaunchScreen.storyboard */; };
+		A424DC342101222300A296D5 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424DC252101221F00A296D5 /* FeedViewModel.swift */; };
+		A424DC352101222300A296D5 /* ReusableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424DC262101221F00A296D5 /* ReusableLabel.swift */; };
+		A424DC362101222300A296D5 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424DC272101221F00A296D5 /* FeedCell.swift */; };
+		A424DC372101222300A296D5 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424DC292101222100A296D5 /* ImageService.swift */; };
+		A424DC382101222300A296D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424DC2A2101222100A296D5 /* ViewController.swift */; };
+		A424DC392101222300A296D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424DC2B2101222100A296D5 /* AppDelegate.swift */; };
+		A424DC3A2101222300A296D5 /* FeedCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424DC2C2101222100A296D5 /* FeedCellLayout.swift */; };
+		A424DC3B2101222300A296D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A424DC2D2101222100A296D5 /* Main.storyboard */; };
+		A424DC3C2101222300A296D5 /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A424DC2F2101222200A296D5 /* FeedCell.xib */; };
+		A424DC3D2101222300A296D5 /* ReusableLabelCachedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A424DC302101222200A296D5 /* ReusableLabelCachedLayout.m */; };
+		A424DC3E2101222300A296D5 /* UIColor + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424DC312101222200A296D5 /* UIColor + Extensions.swift */; };
+		A424DC3F2101222300A296D5 /* ReusableLabel.mm in Sources */ = {isa = PBXBuildFile; fileRef = A424DC322101222300A296D5 /* ReusableLabel.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A424DC0F2101211500A296D5 /* VKFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A424DC122101211500A296D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A424DC142101211500A296D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A424DC172101211500A296D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A424DC192101211A00A296D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A424DC1C2101211A00A296D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A424DC1E2101211A00A296D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A424DC242101221E00A296D5 /* VKFeed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VKFeed-Bridging-Header.h"; sourceTree = "<group>"; };
+		A424DC252101221F00A296D5 /* FeedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		A424DC262101221F00A296D5 /* ReusableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableLabel.swift; sourceTree = "<group>"; };
+		A424DC272101221F00A296D5 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		A424DC292101222100A296D5 /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		A424DC2A2101222100A296D5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A424DC2B2101222100A296D5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A424DC2C2101222100A296D5 /* FeedCellLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCellLayout.swift; sourceTree = "<group>"; };
+		A424DC2D2101222100A296D5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A424DC2E2101222200A296D5 /* ReusableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReusableLabel.h; sourceTree = "<group>"; };
+		A424DC2F2101222200A296D5 /* FeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedCell.xib; sourceTree = "<group>"; };
+		A424DC302101222200A296D5 /* ReusableLabelCachedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReusableLabelCachedLayout.m; sourceTree = "<group>"; };
+		A424DC312101222200A296D5 /* UIColor + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + Extensions.swift"; sourceTree = "<group>"; };
+		A424DC322101222300A296D5 /* ReusableLabel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ReusableLabel.mm; sourceTree = "<group>"; };
+		A424DC332101222300A296D5 /* ReusableLabelCachedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReusableLabelCachedLayout.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +75,24 @@
 		A424DC112101211500A296D5 /* VKFeed */ = {
 			isa = PBXGroup;
 			children = (
-				A424DC122101211500A296D5 /* AppDelegate.swift */,
-				A424DC142101211500A296D5 /* ViewController.swift */,
-				A424DC162101211500A296D5 /* Main.storyboard */,
 				A424DC192101211A00A296D5 /* Assets.xcassets */,
+				A424DC2B2101222100A296D5 /* AppDelegate.swift */,
+				A424DC272101221F00A296D5 /* FeedCell.swift */,
+				A424DC2F2101222200A296D5 /* FeedCell.xib */,
+				A424DC2C2101222100A296D5 /* FeedCellLayout.swift */,
+				A424DC252101221F00A296D5 /* FeedViewModel.swift */,
+				A424DC292101222100A296D5 /* ImageService.swift */,
+				A424DC2D2101222100A296D5 /* Main.storyboard */,
+				A424DC2E2101222200A296D5 /* ReusableLabel.h */,
+				A424DC322101222300A296D5 /* ReusableLabel.mm */,
+				A424DC262101221F00A296D5 /* ReusableLabel.swift */,
+				A424DC332101222300A296D5 /* ReusableLabelCachedLayout.h */,
+				A424DC302101222200A296D5 /* ReusableLabelCachedLayout.m */,
+				A424DC312101222200A296D5 /* UIColor + Extensions.swift */,
+				A424DC2A2101222100A296D5 /* ViewController.swift */,
 				A424DC1B2101211A00A296D5 /* LaunchScreen.storyboard */,
 				A424DC1E2101211A00A296D5 /* Info.plist */,
+				A424DC242101221E00A296D5 /* VKFeed-Bridging-Header.h */,
 			);
 			path = VKFeed;
 			sourceTree = "<group>";
@@ -96,6 +129,7 @@
 				TargetAttributes = {
 					A424DC0E2101211500A296D5 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -122,9 +156,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A424DC3B2101222300A296D5 /* Main.storyboard in Resources */,
+				A424DC3C2101222300A296D5 /* FeedCell.xib in Resources */,
 				A424DC1D2101211A00A296D5 /* LaunchScreen.storyboard in Resources */,
 				A424DC1A2101211A00A296D5 /* Assets.xcassets in Resources */,
-				A424DC182101211500A296D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +170,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A424DC152101211500A296D5 /* ViewController.swift in Sources */,
-				A424DC132101211500A296D5 /* AppDelegate.swift in Sources */,
+				A424DC392101222300A296D5 /* AppDelegate.swift in Sources */,
+				A424DC3F2101222300A296D5 /* ReusableLabel.mm in Sources */,
+				A424DC382101222300A296D5 /* ViewController.swift in Sources */,
+				A424DC342101222300A296D5 /* FeedViewModel.swift in Sources */,
+				A424DC372101222300A296D5 /* ImageService.swift in Sources */,
+				A424DC352101222300A296D5 /* ReusableLabel.swift in Sources */,
+				A424DC362101222300A296D5 /* FeedCell.swift in Sources */,
+				A424DC3E2101222300A296D5 /* UIColor + Extensions.swift in Sources */,
+				A424DC3A2101222300A296D5 /* FeedCellLayout.swift in Sources */,
+				A424DC3D2101222300A296D5 /* ReusableLabelCachedLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A424DC162101211500A296D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A424DC172101211500A296D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A424DC1B2101211A00A296D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K5637FLYEV;
 				INFOPLIST_FILE = VKFeed/Info.plist;
@@ -289,6 +325,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.easypeasy.VKFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VKFeed/VKFeed-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K5637FLYEV;
 				INFOPLIST_FILE = VKFeed/Info.plist;
@@ -307,6 +346,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.easypeasy.VKFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VKFeed/VKFeed-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
